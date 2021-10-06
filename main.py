@@ -15,7 +15,7 @@ if img is None:
 # 第一引数 : 多次元配列(numpy.ndarray)
 # 第二引数 : 変更前の画像の色空間(色)と、変更後の画像の色空間(色)を示す定数を設定。
 # 第二引数で設定できる定数に関しては、公式ドキュメントを参照 : https://docs.opencv.org/3.4.0/d7/d1b/group__imgproc__misc.html#ga4e0972be5de079fed4e3a10e24ef5ef0
-# ※ imread関数から返される色空間(色)の形式は、BGR(Blue, Green, Red)であることに注意する。
+# ※ imread関数から返される色空間(色)の形式は、BGR(Blue, Green, Red)形式であることに注意する。
 # cv2.COLOR_BGR2GRAY : BGR(Blue, Green, Red)形式の色空間(色)を持つ画像をグレースケールする。
 # グレースケールとは? : https://www.shinkohsha.co.jp/blog/monochrome-shirokuro-grayscale/
 # 戻り値 : 多次元配列(numpy.ndarray)
